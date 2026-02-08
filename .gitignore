@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+00_INBOX_UNPROCESSED/*
+!00_INBOX_UNPROCESSED/.gitkeep
+01_Curriculum_Master_Data/*
+!01_Curriculum_Master_Data/.gitkeep
+02_Survey_Data/*
+!02_Survey_Data/.gitkeep
+.DS_Store
+*.md.json
+*.csv.json
+*.pdf.json

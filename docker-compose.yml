@@ -1,0 +1,9 @@
+services:
+  librarian:
+    build: .
+    volumes:
+      - .:/app
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+    # Keep the container running if needed, or just run once
+    # command: python scripts/organize_files.py
